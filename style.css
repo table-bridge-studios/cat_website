@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px; 
+}
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    margin: 0;
+    
+}
+header{
+  position: sticky;
+  display: flex;
+  top: 0;
+  padding: 10px 16px;
+  background-color: rgb(58, 58, 58);
+  align-items: center;
+}
+#logo{
+  width: 30px;
+  height: 30px;
+}
+
+#home{
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  width: 100%;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+#roxy{
+  background-color: rgb(56, 54, 54);
+  
+  
+  width: 100%;
+  min-height: 100dvh;
+  overflow:auto;
+  
+}
+#snotty{
+    background-color: rgb(52, 52, 52);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+#skinny{
+background-color: rgb(56, 54, 54);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+#tesco{
+background-color: rgb(52, 52, 52);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+#rolo{
+background-color: rgb(56, 54, 54);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+#fat{
+background-color: rgb(52, 52, 52);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+#others{
+background-color: rgb(56, 54, 54);
+    width: 100%;
+  min-height: 100dvh;
+  overflow: auto;
+}
+button{
+    
+    border: none;
+    padding-right: 90px;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#home_btn{
+padding: 15px 32px;
+font-size: 25px;
+}
+.header_btn{
+padding: 10px 20px;
+font-size: 20px;
+}
+h1{
+    padding: 15px;
+    color: aliceblue;
+    font-family: "Chewy";
+}
+p{
+  padding: 15px;
+  color: aliceblue;
+  font-size: 27px;
+  font-family: "Chewy";
+}
+
+.txt-align{
+display:flex;
+}
+.description{
+  background-color: rgb(68, 68, 68);
+  border-radius: 25px;
+}
+img{
+  padding: 20px;
+  width: 300px;
+  border-radius: 25px;
+}
+video{
+  padding: 15px;
+  width: 50%;   
+  max-width: 300px;        
+  aspect-ratio: 9 / 16;    
+  object-fit: cover;
+  border-radius: 25px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(58, 58, 58);
+}
